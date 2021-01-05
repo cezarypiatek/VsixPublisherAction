@@ -1,0 +1,35 @@
+{
+  "name": "VsixPublisherAction",
+  "version": "1.0.0",
+  "description": "GithubAction for publishing extensions to Visual Studio Marketplace",
+  "main": "lib/main.js",
+  "scripts": {
+    "build": "tsc",
+    "pack": "ncc build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cezarypiatek/VsixPublisherAction.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cezarypiatek/VsixPublisherAction/issues"
+  },
+  "homepage": "https://github.com/cezarypiatek/VsixPublisherAction#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/exec": "^1.0.3",
+    "@actions/tool-cache": "^1.3.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.25",
+    "@typescript-eslint/parser": "^2.8.0",
+    "@zeit/ncc": "^0.20.5",
+    "js-yaml": "^3.13.1",
+    "prettier": "^1.19.1",
+    "typescript": "^3.6.4"
+  }
+}

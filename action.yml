@@ -1,0 +1,21 @@
+name: 'VSIX Publisher'
+description: 'GithubAction for publishing extensions to Visual Studio Marketplace'
+inputs:
+  extension-file:
+    description: 'The path to VSIX file'
+    required: true
+  publish-manifest-file:
+    description: 'The path to publish manifest file'
+    required: true
+  personal-access-code:
+    description: 'The publisher access token'
+    required: true
+  vswhere-path:
+    required: false
+    description: 'Folder location of where vswhere.exe is located if a self-hosted agent'
+  vs-version:
+    description: 'Version of Visual Studio to search; defaults to latest if not specified'
+    required: false
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
