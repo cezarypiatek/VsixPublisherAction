@@ -1,0 +1,15 @@
+on: [push]
+
+jobs:
+  test_vs_publisher:
+    runs-on: windows-latest
+    name: A job to test VSPublisher
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Test Publisher
+      uses: ./
+      with:
+        extension-file: out/test.vsix
+        publish-manifest-file: publishManifest.json
+        personal-access-code: THIS_IS_SECRET_DO_NOT_TELL_ANYONE
