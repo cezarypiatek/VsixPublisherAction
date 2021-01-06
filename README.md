@@ -6,11 +6,11 @@ Example usage:
 
 ```yml
 - name: Publish extension to Marketplace
-    uses: cezarypiatek/VsixPublisherAction@0.1
-    with:
-        extension-file: src\MappingGenerator.Vsix\bin\Release\MappingGenerator.vsix
-        publish-manifest-file: src\MappingGenerator.Vsix\publishManifest.json
-        personal-access-code: ${{ secrets.VS_PUBLISHER_ACCESS_TOKEN }}
+  uses: cezarypiatek/VsixPublisherAction@0.1
+  with:
+      extension-file: src\MappingGenerator.Vsix\bin\Release\MappingGenerator.vsix
+      publish-manifest-file: src\MappingGenerator.Vsix\publishManifest.json
+      personal-access-code: ${{ secrets.VS_PUBLISHER_ACCESS_TOKEN }}
 ```
 
 Example `publishManifest.json`
