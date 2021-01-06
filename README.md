@@ -1,4 +1,4 @@
-# VsixPublisherAction
+# VsixPublisher Github Action
 GithubAction for publishing extensions to Visual Studio Marketplace
 
 
