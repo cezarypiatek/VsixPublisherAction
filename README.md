@@ -6,7 +6,7 @@ Example usage:
 
 ```yml
 - name: Publish extension to Marketplace
-  uses: cezarypiatek/VsixPublisherAction@0.1
+  uses: cezarypiatek/VsixPublisherAction@0.2
   with:
       extension-file: src\MappingGenerator.Vsix\bin\Release\MappingGenerator.vsix
       publish-manifest-file: src\MappingGenerator.Vsix\publishManifest.json
