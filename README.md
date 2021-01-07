@@ -34,4 +34,8 @@ Example `publishManifest.json`
 }
 ```
 
+See also:
+
+[publishManifest file reference](https://docs.microsoft.com/en-us/visualstudio/extensibility/walkthrough-publishing-a-visual-studio-extension-via-command-line?view=vs-2019#publishmanifest-file)
+
 [How to generate Personal Access Token](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#get-a-personal-access-token)
