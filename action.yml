@@ -17,5 +17,5 @@ inputs:
     description: 'Version of Visual Studio to search; defaults to latest if not specified'
     required: false
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'
