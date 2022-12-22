@@ -68,3 +68,13 @@ Example of correct manifest:
 2) Sometimes you need also set `Organization` to the `All accessible organization`.
 
 ![](pac-config.png)
+
+## How to build github action
+
+```
+docker run -v ${pwd}:/action -it  node:16-alpine /bin/sh
+cd action
+npm i -g @vercel/ncc
+npm install
+ncc build ./src/main.ts
+```
