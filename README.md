@@ -6,7 +6,7 @@ GithubAction for publishing extensions to Visual Studio Marketplace
 
 ```yml
 - name: Publish extension to Marketplace
-  uses: cezarypiatek/VsixPublisherAction@1.0
+  uses: cezarypiatek/VsixPublisherAction@1.1
   with:
       extension-file: src\MappingGenerator.Vsix\bin\Release\MappingGenerator.vsix
       publish-manifest-file: src\MappingGenerator.Vsix\publishManifest.json
